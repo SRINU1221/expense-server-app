@@ -25,7 +25,7 @@ const userSchema = mongoose.Schema({
     }
 
 },{
-    timesamp:true,
+    timestamps: true,
 });
 
 //Hash password
